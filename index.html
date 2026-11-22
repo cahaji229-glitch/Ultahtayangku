@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Untuk Ita Fatimah Fitriani ❤️</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#6d2932" />
+  <meta property="og:title" content="Sebuah kejutan kecil untuk Ita ❤️" />
+  <meta property="og:description" content="Buka tepat 1 Desember 2026 pukul 00:00 WIB." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎂%3C/text%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Playfair Display, Caveat, & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+  <style>
+    :root {
+      --bg-parchment: #f5eedc;
+      --paper-light: #fdfaf4;
+      --wood-dark: #3e2723;
+      --burgundy: #6d2932;
+      --burgundy-dark: #4a1920;
+      --gold-vintage: #c59b27;
+      --gold-soft: #e5c158;
+    }
+
+    body {
+      background-color: var(--bg-parchment);
+      background-image:
+        radial-gradient(rgba(109, 41, 50, 0.05) 1px, transparent 0),
+        radial-gradient(rgba(197, 155, 39, 0.07) 1px, var(--bg-parchment) 0);
+      background-size: 36px 36px;
+      background-position: 0 0, 18px 18px;
+      color: var(--wood-dark);
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .font-serif-vintage {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .font-handwriting {
+      font-family: 'Caveat', cursive;
+    }
+
+    /* Tekstur Kertas Surat Vintage */
+    .parchment-sheet {
+      background: linear-gradient(145deg, #fffdf8 0%, #f7efe0 100%);
+      border: 1px solid #dfd0b8;
+      box-shadow:
+        0 12px 30px -8px rgba(62, 39, 35, 0.16),
+        inset 0 0 45px rgba(197, 155, 39, 0.08);
+      position: relative;
+    }
+
+    /* Bingkai Polaroid & Selotip Transparan */
+    .polaroid-card {
+      background: #ffffff;
+      padding: 12px 12px 26px 12px;
+      box-shadow: 0 10px 25px rgba(62, 39, 35, 0.15);
+      border: 1px solid #ece4d5;
+      transition: transform 0.35s ease, box-shadow 0.35s ease;
+      position: relative;
+    }
+
+    @media (hover: hover) { .polaroid-card:hover {
+      transform: scale(1.04) rotate(0deg) !important;
+      box-shadow: 0 18px 35px rgba(62, 39, 35, 0.22);
+      z-index: 20; }
+    }
+
+    .washi-tape {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%) rotate(-2deg);
+      width: 90px;
+      height: 24px;
+      background-color: rgba(226, 204, 168, 0.72);
+      border-left: 1px dashed rgba(139, 107, 74, 0.35);
+      border-right: 1px dashed rgba(139, 107, 74, 0.35);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      z-index: 10;
+    }
+
+    /* Stempel Lilin (Wax Seal) */
+    .wax-seal {
+      background: radial-gradient(circle at 30% 30%, #9e2a38, #6d2932 65%, #4a1920 100%);
+      box-shadow:
+        0 6px 14px rgba(74, 25, 32, 0.45),
+        inset 0 2px 5px rgba(255, 255, 255, 0.25),
+        inset 0 -3px 6px rgba(0, 0, 0, 0.4);
+      border: 3px solid #862532;
+      transition: transform 0.25s ease;
+    }
+
+    .wax-seal:hover {
+      transform: scale(1.07);
+    }
+
+    /* Animasi Api Lilin */
+    @keyframes flicker {
+      0%, 100% { transform: translateX(-50%) scale(1) rotate(-1deg); opacity: 1; }
+      25% { transform: translateX(-50%) scale(1.06, 0.95) rotate(2deg); opacity: 0.92; }
+      50% { transform: translateX(-50%) scale(0.95, 1.05) rotate(-2deg); opacity: 1; }
+      75% { transform: translateX(-50%) scale(1.03, 0.97) rotate(1deg); opacity: 0.95; }
+    }
+
+    .candle-flame {
+      animation: flicker 1.3s infinite ease-in-out;
+      transform-origin: bottom center;
+    }
+
+    /* Animasi Asap Setelah Lilin Ditiup */
+    @keyframes smokeRise {
+      0% { opacity: 0.85; transform: translateX(-50%) translateY(0) scale(0.8); }
+      100% { opacity: 0; transform: translateX(-50%) translateY(-42px) scale(2); }
+    }
+
+    .candle-smoke {
+      animation: smokeRise 2.2s forwards ease-out;
+    }
+
+    /* Animasi Getar (Shake) Kuis */
+    @keyframes shakeBox {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+
+    .shake-error {
+      animation: shakeBox 0.45s ease-in-out;
+    }
+
+    /* Animasi Hati Terbang (Kirim Peluk) */
+    @keyframes floatHeartUp {
+      0% {
+        transform: translateY(0) scale(0.7) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-90vh) scale(1.35) rotate(25deg);
+        opacity: 0;
+      }
+    }
+
+    .floating-hug-heart {
+      position: fixed;
+      bottom: 65px;
+      pointer-events: none;
+      z-index: 9999;
+      animation: floatHeartUp 3.2s ease-out forwards;
+    }
+
+    /* Kursor Berkedip Efek Mesin Tik */
+    .typewriter-cursor::after {
+      content: "|";
+      animation: blinkCursor 0.8s infinite;
+      color: #6d2932;
+      font-weight: bold;
+    }
+
+    @keyframes blinkCursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+      body:not(.preview) #btn-test-confetti, body:not(.preview) #btn-test-midnight, body:not(.preview) #btn-mode-countdown, body:not(.preview) #btn-mode-birthday, body:not(.preview) #preview-label { display: none; }
+    button:focus-visible, [role="button"]:focus-visible { outline: 2px solid #c59b27; outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) { .candle-flame, .animate-pulse, .animate-bounce, .floating-hug-heart { animation: none !important; } }
+  </style>
+</head>
+<body class="min-h-screen selection:bg-[#6d2932] selection:text-white">
+
+  <!-- ===================================================================== -->
+  <!-- KONFIGURASI ASET (MUDAH DIGANTI DI SATU TEMPAT)                         -->
+  <!-- ===================================================================== -->
+  <script>
+    const CONFIG = {
+      targetDateWIB: "2026-12-01T00:00:00+07:00",
+      senderName: "Fatkhurrizal",
+      receiverName: "Ita Fatimah Fitriani",
+      // Nama file tanda tangan asli (upload gambar tanda tanganmu ke GitHub dengan nama ini)
+      signatureImageUrl: "ttd-rizal.png",
+      // Nomor WhatsApp Fatkhurrizal (format internasional 62 tanpa tanda +)
+      rizalWhatsAppNumber: "62895402412788",
+      // Kosongkan ("") untuk memakai melodi music-box otomatis tanpa file eksternal
+      audioFileUrl: "",
+      birthYear: 2004, // tahun lahir Ita (umur dihitung otomatis dari tahun target)
+      reasons: [], // ISI (opsional): ["Karena senyummu...", "Karena kamu..."] -> seksi "Alasan" muncul otomatis
+      personalMemory: "", // ISI 1-2 kalimat momen spesifik kalian (muncul di surat cinta)
+      // Ganti dengan URL Embed YouTube untuk Video Utama (Pinned di bawah lilin)
+      pinnedVideoEmbedUrl: "", // ISI: https://www.youtube-nocookie.com/embed/ID_VIDEO?rel=0 (video Unlisted). Kosong = tampil kotak "video sedang disiapkan"
+      // GANTI url dengan foto asli (mis. "foto/1.webp", format WebP, <=200KB). Jumlah bebas (12/20/dst): tiap item boleh cukup berupa teks "foto/1.webp"; emote & kemiringan diisi otomatis.
+      memoriesPhotos: [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ]
+    };
+  </script>
+
+  <!-- Audio Element (Opsional jika memakai file MP3 eksternal) -->
+  <audio id="bg-music" loop preload="auto"></audio>
+  <div id="final-count" class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-[#2c1810]/90 text-[#e5c158] font-serif-vintage text-9xl pointer-events-none"></div>
+
+  <!-- ===================================================================== -->
+  <!-- 1. MODAL AMPLOP PEMBUKA BERSEGEL STEMPEL LILIN                        -->
+  <!-- ===================================================================== -->
+  <div id="envelope-overlay" class="fixed inset-0 z-50 flex items-center justify-center bg-[#2c1810]/90 backdrop-blur-sm p-4 transition-opacity duration-700">
+    <div class="parchment-sheet max-w-md w-full rounded-2xl p-8 text-center border-2 border-[#c59b27] shadow-2xl relative overflow-hidden">
+      <div class="absolute top-3 left-3 text-[#c59b27]/50 text-xl"><i class="fa-solid fa-feather-pointed"></i></div>
+      <div class="absolute top-3 right-3 text-[#c59b27]/50 text-xl"><i class="fa-solid fa-heart"></i></div>
+
+      <p class="uppercase tracking-[0.25em] text-xs text-[#6d2932] font-semibold mb-2">
+        Sebuah Surat Spesial Untuk
+      </p>
+      <h1 class="font-serif-vintage text-2xl sm:text-3xl font-bold text-[#3e2723] mb-1">
+        Ita Fatimah Fitriani
+      </h1>
+      <p class="font-handwriting text-xl text-[#6d2932] mb-6">
+        Dari: Fatkhurrizal ❤️
+      </p>
+
+      <!-- Garis Lipatan Amplop -->
+      <div class="relative my-6 py-8 border-y border-dashed border-[#c59b27]/60 bg-[#f9f2e3]/70 rounded-xl">
+        <button id="open-envelope-btn" type="button" class="wax-seal w-24 h-24 rounded-full mx-auto flex flex-col items-center justify-center text-[#f7e7b4] cursor-pointer" aria-label="Buka surat">
+          <span class="font-serif-vintage text-xl font-bold tracking-wider">R &amp; I</span>
+          <i class="fa-solid fa-heart text-xs mt-1 text-[#e5c158]"></i>
+        </button>
+        <p class="mt-4 text-sm font-medium text-[#4e342e] animate-pulse">
+          Klik Stempel Lilin untuk Buka Surat Spesial
+        </p>
+      </div>
+
+      <p class="text-xs text-[#795548] italic">
+        <i class="fa-solid fa-volume-high mr-1 text-[#6d2932]"></i>
+        Pastikan volume perangkatmu menyala untuk mendengarkan alunan musik
+      </p>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- 2. BAR PENGENDALI DEMO & MUSIK (FLOATING SWITCHER POJOK KANAN ATAS)   -->
+  <!-- ===================================================================== -->
+  <div class="fixed top-3 right-3 z-40 flex flex-wrap items-center gap-1.5 bg-[#3e2723]/95 text-[#fdfaf4] px-3 py-2 rounded-full shadow-lg border border-[#c59b27]/50 text-xs backdrop-blur-md">
+    <span id="preview-label" class="hidden sm:inline text-[#e5c158] font-medium mr-1"><i class="fa-solid fa-sliders"></i> Mode Preview:</span>
+    <button id="btn-mode-countdown" type="button" onclick="setMode('countdown')" class="px-2.5 py-1 rounded-full transition font-medium cursor-pointer bg-[#6d2932] text-white">
+      Hitung Mundur
+    </button>
+    <button id="btn-mode-birthday" type="button" onclick="setMode('birthday')" class="px-2.5 py-1 rounded-full transition font-medium cursor-pointer text-[#e6d7c1] hover:text-white">
+      Mode Hari H
+    </button>
+    <button id="btn-test-confetti" type="button" onclick="launchCelebrationConfetti()" class="px-2.5 py-1 rounded-full transition font-medium cursor-pointer text-[#e6d7c1] hover:text-white">🎉 Tes Konfeti</button>
+    <button id="btn-test-midnight" type="button" onclick="location.href=location.pathname+'?test=12'" class="px-2.5 py-1 rounded-full transition font-medium cursor-pointer text-[#e6d7c1] hover:text-white">⏱ Tes 00:00</button>
+    <button id="btn-toggle-music" type="button" onclick="toggleMusic()" title="Putar / Hentikan Musik" class="ml-1 w-7 h-7 rounded-full bg-[#c59b27] text-[#2c1810] flex items-center justify-center hover:bg-[#e5c158] transition cursor-pointer">
+      <i id="music-icon" class="fa-solid fa-music"></i>
+    </button>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- FASE A: MODE SEBELUM HARI H (COUNTDOWN & 1 FRAME TERKUNCI SAJA)       -->
+  <!-- ===================================================================== -->
+  <main id="countdown-view" class="max-w-3xl mx-auto px-4 pt-20 pb-28 space-y-12">
+
+    <!-- Header Countdown -->
+    <section class="text-center space-y-4">
+      <div class="inline-block px-4 py-1.5 rounded-full bg-[#6d2932]/10 border border-[#6d2932]/25 text-[#6d2932] text-xs font-semibold tracking-widest uppercase">
+        Menuju 1 Desember 2026 • 00:00 WIB
+      </div>
+      <h1 class="font-serif-vintage text-3xl sm:text-5xl font-bold text-[#3e2723] leading-tight">
+        Counting Down to <br />
+        <span class="text-[#6d2932] italic">Ita Fatimah Fitriani's</span> Special Day
+      </h1>
+      <p class="font-handwriting text-2xl sm:text-3xl text-[#5d4037]">
+        Sebuah kejutan kecil sedang disiapkan sepenuh hati oleh Fatkhurrizal ❤️
+      </p>
+    </section>
+
+    <!-- Kotak Timer Hitung Mundur -->
+    <section class="parchment-sheet rounded-2xl p-6 sm:p-10 text-center">
+      <div class="grid grid-cols-4 gap-2 sm:gap-5 max-w-xl mx-auto">
+        <div class="bg-[#6d2932] text-[#fdfaf4] rounded-xl p-3 sm:p-5 shadow-md border border-[#c59b27]/40">
+          <span id="cd-days" class="font-serif-vintage text-2xl sm:text-5xl font-bold block">00</span>
+          <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[#e5c158] mt-1 block">Hari</span>
+        </div>
+        <div class="bg-[#6d2932] text-[#fdfaf4] rounded-xl p-3 sm:p-5 shadow-md border border-[#c59b27]/40">
+          <span id="cd-hours" class="font-serif-vintage text-2xl sm:text-5xl font-bold block">00</span>
+          <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[#e5c158] mt-1 block">Jam</span>
+        </div>
+        <div class="bg-[#6d2932] text-[#fdfaf4] rounded-xl p-3 sm:p-5 shadow-md border border-[#c59b27]/40">
+          <span id="cd-minutes" class="font-serif-vintage text-2xl sm:text-5xl font-bold block">00</span>
+          <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[#e5c158] mt-1 block">Menit</span>
+        </div>
+        <div class="bg-[#6d2932] text-[#fdfaf4] rounded-xl p-3 sm:p-5 shadow-md border border-[#c59b27]/40">
+          <span id="cd-seconds" class="font-serif-vintage text-2xl sm:text-5xl font-bold block">00</span>
+          <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[#e5c158] mt-1 block">Detik</span>
+        </div>
+      </div>
+      <p class="mt-6 text-xs sm:text-sm text-[#6d4c41] italic">
+        "Sabar sebentar lagi ya sayang, setiap detik membawa kita lebih dekat ke hari bahagiamu..."
+      </p>
+    </section>
+
+    <!-- Satu Frame Terkunci (Bebas Spoiler) -->
+    <section class="parchment-sheet rounded-2xl p-8 sm:p-10 text-center border-2 border-dashed border-[#c59b27] relative overflow-hidden">
+      <div class="w-16 h-16 rounded-full bg-[#6d2932] text-[#e5c158] flex items-center justify-center text-2xl mx-auto mb-4 shadow-lg">
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      <h3 class="font-serif-vintage text-xl sm:text-2xl font-bold text-[#6d2932] mb-2">
+        Sesuatu yang Spesial Masih Terkunci
+      </h3>
+      <p class="text-sm sm:text-base text-[#4e342e] max-w-lg mx-auto mb-4 leading-relaxed">
+        Segala hal yang sudah aku siapkan khusus untuk merayakan hari bahagiamu masih tersimpan rapat di balik gembok ini dan akan terbuka otomatis pada:
+      </p>
+      <div class="inline-block px-5 py-2 rounded-full bg-[#6d2932]/10 text-[#6d2932] font-semibold text-sm">
+        <i class="fa-regular fa-calendar-check mr-1.5"></i> 1 Desember 2026 pukul 00:00 WIB
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- FASE B: MODE HARI H (1 DESEMBER 2026 PUKUL 00:00 KE ATAS)             -->
+  <!-- ===================================================================== -->
+  <main id="birthday-view" class="hidden max-w-5xl mx-auto px-4 pt-20 pb-28 space-y-16">
+
+    <!-- 3. HEADER & KUE LILIN VIRTUAL (KLIK ATAU TIUP VIA MIKROFON) -->
+    <section class="text-center space-y-5">
+      <div class="inline-block px-4 py-1.5 rounded-full bg-[#c59b27]/20 border border-[#c59b27] text-[#6d2932] text-xs font-semibold tracking-widest uppercase">
+        1 Desember 2026 • Usia <span class="age-num">22</span> Tahun
+      </div>
+      <h1 class="font-serif-vintage text-3xl sm:text-5xl md:text-6xl font-bold text-[#6d2932] leading-tight">
+        Selamat Ulang Tahun, <br />
+        <span class="text-[#3e2723]">Ita Fatimah Fitriani! ❤️</span>
+      </h1>
+      <p class="font-handwriting text-2xl sm:text-3xl text-[#5d4037] max-w-2xl mx-auto">
+        Semoga segala doa terbaik, kebahagiaan, dan senyum indah selalu menyertai langkahmu. — Dari Fatkhurrizal
+      </p>
+
+      <!-- Kue Ulang Tahun Vintage & Lilin Interaktif (KHUSUS TIUP VIA MIKROFON) -->
+      <div class="pt-6 pb-2 flex flex-col items-center">
+        <div id="birthday-cake-box" onclick="remindMicBlow()" class="relative cursor-pointer group select-none pt-12" title="Nyalakan mikrofon dan tiup lilinnya!">
+          <!-- Api Lilin -->
+          <div id="candle-flame" class="candle-flame absolute top-1 left-1/2 -translate-x-1/2 w-5 h-8 rounded-full bg-gradient-to-t from-[#ff6f00] via-[#ffca28] to-[#fff9c4] shadow-[0_0_20px_#ffca28]"></div>
+          <!-- Asap (Muncul saat ditiup) -->
+          <div id="candle-smoke" class="hidden absolute top-2 left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400/60 blur-sm"></div>
+
+          <!-- Batang Lilin -->
+          <div class="w-4 h-12 mx-auto rounded-t-sm bg-gradient-to-r from-[#f8bbd0] via-[#ffffff] to-[#f48fb1] border border-[#c59b27]/50 shadow-sm"></div>
+
+          <!-- Lapisan Kue Atas -->
+          <div class="w-36 h-12 mx-auto -mt-1 rounded-t-xl bg-[#fdfaf4] border-x-2 border-t-2 border-[#d7ccc8] relative overflow-hidden shadow">
+            <div class="w-full h-4 bg-[#6d2932] rounded-b-lg"></div>
+          </div>
+
+          <!-- Lapisan Kue Bawah -->
+          <div class="w-52 h-16 mx-auto -mt-1 rounded-t-xl bg-[#f3e5d0] border-2 border-[#c59b27]/60 relative shadow-md flex items-center justify-center">
+            <span class="font-handwriting text-xl text-[#6d2932] font-bold">Make a Wish, Ita!</span>
+          </div>
+
+          <!-- Piring Kue -->
+          <div class="w-64 h-3 mx-auto bg-[#c59b27] rounded-full shadow-md"></div>
+        </div>
+
+        <p id="candle-instruction" class="mt-4 text-xs sm:text-sm font-medium text-[#6d2932] bg-[#6d2932]/10 px-4 py-1.5 rounded-full">
+          <i class="fa-solid fa-wind mr-1"></i> Nyalakan mikrofon di bawah lalu tiup ke arah HP untuk memadamkan lilin!
+        </p>
+
+        <!-- Tombol Wajib: Tiup Lilin Sungguhan Pakai Mikrofon HP -->
+        <div class="mt-3">
+          <button id="btn-mic-blow" type="button" onclick="enableMicBlow()" class="inline-flex items-center gap-2 px-5 py-2 rounded-full border-2 border-[#6d2932] bg-[#6d2932] hover:bg-[#4a1920] text-[#fdfaf4] text-xs sm:text-sm font-semibold transition shadow-md cursor-pointer">
+            <i class="fa-solid fa-microphone"></i>
+            <span id="mic-status-text">Nyalakan Mikrofon &amp; Tiup Lilin 🌬️</span>
+          </button>
+        </div>
+        <button id="btn-manual-blow" type="button" onclick="blowCandle()" class="hidden mt-3 text-xs underline text-[#6d2932] cursor-pointer">Mikrofon bermasalah? Padamkan lilin manual 🕯️</button>
+      </div>
+    </section>
+
+    <!-- 4. PINNED SPECIAL VIDEO -->
+    <section id="video-section" class="max-w-3xl mx-auto">
+      <div class="parchment-sheet rounded-2xl p-4 sm:p-7 border-2 border-[#c59b27] shadow-xl">
+        <div class="flex items-center justify-center gap-2 mb-4 text-[#6d2932]">
+          <i class="fa-solid fa-thumbtack text-[#c59b27]"></i>
+          <h2 class="font-serif-vintage text-xl sm:text-2xl font-bold text-center">
+            Pesan Spesial Dari Fatkhurrizal
+          </h2>
+          <i class="fa-solid fa-thumbtack text-[#c59b27]"></i>
+        </div>
+
+        <!-- Container Video Responsive 16:9 -->
+        <div class="relative w-full overflow-hidden rounded-xl border-4 border-[#3e2723] shadow-lg bg-black" style="padding-top: 56.25%;">
+          <iframe
+            id="pinned-video-iframe"
+            class="absolute inset-0 w-full h-full"
+            src=""
+            title="Pesan Spesial Dari Fatkhurrizal"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <div id="video-placeholder" class="hidden absolute inset-0 flex flex-col items-center justify-center text-center text-[#e5c158] p-4">
+            <i class="fa-solid fa-film text-4xl mb-3"></i>
+            <p class="font-handwriting text-2xl">Video spesial sedang disiapkan... tunggu ya, sayang ❤️</p>
+          </div>
+        </div>
+
+        <div class="bg-[#2c1810] text-[#e5c158] text-center py-3 px-4 mt-2 rounded-lg font-handwriting text-xl sm:text-2xl">
+          "Tonton sampai habis ya sayang, ini khusus aku buat untuk hari ulang tahunmu ❤️"
+        </div>
+      </div>
+    </section>
+
+    <!-- 4b. ANGKA SPESIAL -->
+    <section class="max-w-3xl mx-auto text-center">
+      <div class="parchment-sheet rounded-2xl p-6 sm:p-8">
+        <p class="font-serif-vintage text-6xl font-bold text-[#6d2932]"><span class="age-num">22</span></p>
+        <p class="font-handwriting text-2xl sm:text-3xl text-[#3e2723] mt-2">Sekitar <span id="days-lived">8.035</span> hari kamu menjalani hidup, dan aku bersyukur jadi bagian dari sebagian kecilnya ❤️</p>
+      </div>
+    </section>
+
+    <!-- 5. SURAT CINTA VIRTUAL (DENGAN EFEK MESIN TIK KLASIK) -->
+    <section id="love-letter-section" class="max-w-3xl mx-auto">
+      <div class="parchment-sheet rounded-2xl p-7 sm:p-12 relative">
+        <!-- Stempel Pos Vintage -->
+        <div class="hidden sm:flex flex-col items-center justify-center w-20 h-20 rounded-full border-2 border-[#6d2932]/40 text-[#6d2932]/60 rotate-12 absolute top-6 right-8 text-[10px] font-bold uppercase text-center leading-tight">
+          <span>1 DES 2026</span>
+          <span class="text-xs my-0.5">★ ★ ★</span>
+          <span>SPECIAL POST</span>
+        </div>
+
+        <p class="font-handwriting text-2xl text-[#6d2932] mb-4">Untuk: Ita Fatimah Fitriani,</p>
+
+        <!-- Container Teks Surat Mesin Tik -->
+        <div id="typewriter-letter-box" class="font-handwriting text-2xl sm:text-[26px] text-[#3e2723] leading-relaxed space-y-4 min-h-[260px]">
+          <p id="typed-letter-output" class="whitespace-pre-line typewriter-cursor"></p>
+        </div>
+
+        <div class="mt-4 flex justify-end">
+          <button id="btn-skip-typewriter" type="button" onclick="finishTypewriterImmediately()" class="text-xs text-[#6f5238] hover:text-[#6d2932] underline cursor-pointer">
+            Tampilkan seluruh surat sekaligus
+          </button>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-[#d6c5ab] flex justify-between items-end">
+          <div>
+            <p class="text-xs text-[#6f5238] uppercase tracking-wider">Tertulis dengan tulus,</p>
+            <img id="letter-signature-img" src="ttd-rizal.png" alt="Tanda Tangan Fatkhurrizal" onerror="this.style.display='none'" class="h-16 sm:h-20 object-contain my-1 mix-blend-multiply select-none" />
+            <p class="font-handwriting text-3xl font-bold text-[#6d2932]">Fatkhurrizal</p>
+          </div>
+          <div class="wax-seal w-12 h-12 rounded-full flex items-center justify-center text-[#e5c158] font-serif-vintage font-bold text-xs">
+            R &amp; I
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. LOVE QUIZ (20 SOAL KENANGAN BERDUA - SALAH SATU ULANG DARI AWAL) -->
+    <section class="max-w-2xl mx-auto">
+      <div id="quiz-container" class="parchment-sheet rounded-2xl p-6 sm:p-10">
+        <div class="text-center mb-6">
+          <span class="inline-block px-3 py-1 rounded-full bg-[#c59b27]/20 text-[#6d2932] text-xs font-semibold uppercase tracking-wider mb-2">
+            Love Quiz Challenge • 20 Soal Rahasia
+          </span>
+          <h2 class="font-serif-vintage text-2xl sm:text-3xl font-bold text-[#3e2723]">
+            Seberapa Kenal Ita Sama Aku? 😜
+          </h2>
+          <p class="text-xs sm:text-sm text-[#6d4c41] mt-1">
+            Hati-hati! Kalau salah, kamu mundur ke checkpoint terakhir (tiap 5 soal) ya! ❤️
+          </p>
+        </div>
+
+        <!-- Area Soal Kuis -->
+        <div id="quiz-body">
+          <div class="flex justify-between items-center text-xs font-semibold text-[#6d2932] mb-3">
+            <span id="quiz-progress">Pertanyaan 1 dari 20</span>
+            <span id="quiz-badge-type"><i class="fa-solid fa-heart"></i> Ingat-ingat yaa</span>
+          </div>
+
+          <!-- Progress Bar -->
+          <div class="w-full h-2 bg-[#e6d7c1] rounded-full overflow-hidden mb-5">
+            <div id="quiz-progress-bar" class="h-full bg-[#6d2932] transition-all duration-300" style="width: 5%;"></div>
+          </div>
+
+          <h3 id="quiz-question" class="font-serif-vintage text-lg sm:text-xl font-bold text-[#3e2723] mb-5 leading-snug">
+            Memuat pertanyaan...
+          </h3>
+
+          <!-- Container Pilihan Ganda -->
+          <div id="quiz-options" class="space-y-3">
+            <!-- Opsi jawaban dirender oleh JavaScript -->
+          </div>
+
+          <!-- Container Essay Khusus Soal 20 -->
+          <div id="quiz-essay-box" class="hidden space-y-4">
+            <textarea id="quiz-essay-input" rows="3" placeholder="Tulis jawaban versimu di sini sayang..." class="w-full rounded-xl border-2 border-[#d6c5ab] bg-white p-3.5 text-sm text-[#3e2723] focus:outline-none focus:border-[#6d2932]"></textarea>
+            <button type="button" onclick="submitEssayQuiz()" class="w-full py-3 px-6 rounded-xl bg-[#6d2932] hover:bg-[#4a1920] text-[#fdfaf4] font-semibold text-sm shadow-md transition cursor-pointer">
+              Kirim Jawaban Terakhir ❤️
+            </button>
+          </div>
+
+          <!-- Notifikasi Feedback Kuis -->
+          <div id="quiz-feedback" class="hidden mt-4 p-3.5 rounded-xl text-center text-sm font-medium"></div>
+        </div>
+
+        <!-- Area Hadiah Setelah Kuis Selesai -->
+        <div id="quiz-success" class="hidden text-center py-4 space-y-4">
+          <div class="w-16 h-16 mx-auto rounded-full bg-[#6d2932] text-[#e5c158] flex items-center justify-center text-3xl shadow-lg">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h3 class="font-serif-vintage text-2xl sm:text-3xl font-bold text-[#6d2932]">
+            Selamat! Kamu Memang Mengenal Aku Banget ❤️
+          </h3>
+          <p class="text-sm sm:text-base text-[#4e342e] leading-relaxed max-w-lg mx-auto">
+            Dari 20 pertanyaan kenangan &amp; rahasia kita berdua, semuanya berhasil kamu lewati dengan luar biasa! Kamu bukan cuma pasangan terbaik, tapi juga orang yang paling mengerti setiap detail kecil tentang aku.
+          </p>
+          <div class="p-5 rounded-xl bg-[#fdf6e7] border border-[#c59b27] text-[#3e2723] font-handwriting text-2xl leading-relaxed shadow-inner">
+            "Bonus Rahasia Unlocked: Kamu berhak klaim 1x permintaan spesial apa pun dari aku hari ini (makan enak, jalan-jalan, atau peluk sepuasnya)! Klik tombol di bawah untuk klaim hadiahmu ya sayang 😘"<button type="button" onclick="claimQuizPrize()" class="mt-4 block mx-auto px-6 py-3 rounded-full bg-[#6d2932] text-[#fdfaf4] text-sm font-sans font-semibold shadow-lg cursor-pointer">Klaim Hadiahku via WhatsApp 🎁</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. KOTAK SURAT "BUKA SAAT..." (OPEN WHEN LETTERS) -->
+    <section class="max-w-4xl mx-auto">
+      <div class="text-center mb-8">
+        <span class="text-xs uppercase tracking-[0.2em] text-[#6d2932] font-semibold">Open When Letters</span>
+        <h2 class="font-serif-vintage text-2xl sm:text-4xl font-bold text-[#3e2723] mt-1">
+          Kotak Surat Rahasia Untuk Ita
+        </h2>
+        <p class="text-sm text-[#6d4c41] mt-1">Pilih dan klik amplop sesuai suasana hatimu saat ini</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Amplop 1 -->
+        <button type="button" onclick="openWhenModal(0)" class="parchment-sheet rounded-xl p-6 text-center hover:-translate-y-1.5 transition duration-300 cursor-pointer group border border-[#c59b27]/50">
+          <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#6d2932]/10 text-[#6d2932] group-hover:bg-[#6d2932] group-hover:text-[#e5c158] transition flex items-center justify-center text-xl">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <h3 class="font-serif-vintage text-lg font-bold text-[#3e2723] mb-1">
+            Buka saat Ita lagi kangen Aku
+          </h3>
+          <p class="text-xs text-[#6f5238]">Klik untuk membuka amplop</p>
+        </button>
+
+        <!-- Amplop 2 -->
+        <button type="button" onclick="openWhenModal(1)" class="parchment-sheet rounded-xl p-6 text-center hover:-translate-y-1.5 transition duration-300 cursor-pointer group border border-[#c59b27]/50">
+          <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#6d2932]/10 text-[#6d2932] group-hover:bg-[#6d2932] group-hover:text-[#e5c158] transition flex items-center justify-center text-xl">
+            <i class="fa-solid fa-face-kiss-wink-heart"></i>
+          </div>
+          <h3 class="font-serif-vintage text-lg font-bold text-[#3e2723] mb-1">
+            Buka saat Ita lagi ngambek sama Aku
+          </h3>
+          <p class="text-xs text-[#6f5238]">Klik untuk membuka amplop</p>
+        </button>
+
+        <!-- Amplop 3 -->
+        <button type="button" onclick="openWhenModal(2)" class="parchment-sheet rounded-xl p-6 text-center hover:-translate-y-1.5 transition duration-300 cursor-pointer group border border-[#c59b27]/50">
+          <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#6d2932]/10 text-[#6d2932] group-hover:bg-[#6d2932] group-hover:text-[#e5c158] transition flex items-center justify-center text-xl">
+            <i class="fa-solid fa-sun"></i>
+          </div>
+          <h3 class="font-serif-vintage text-lg font-bold text-[#3e2723] mb-1">
+            Buka saat Ita lagi butuh semangat
+          </h3>
+          <p class="text-xs text-[#6f5238]">Klik untuk membuka amplop</p>
+        </button>
+      </div>
+    </section>
+
+    <!-- 8. PIAGAM PENGHARGAAN VIRTUAL (CERTIFICATE OF BEST PARTNER) -->
+    <section class="max-w-3xl mx-auto">
+      <div class="parchment-sheet rounded-2xl p-3 sm:p-5 shadow-2xl">
+        <div class="border-4 border-double border-[#c59b27] rounded-xl p-6 sm:p-10 text-center relative">
+          <div class="text-[#c59b27] text-3xl mb-2">
+            <i class="fa-solid fa-crown"></i>
+          </div>
+          <p class="uppercase tracking-[0.3em] text-xs font-semibold text-[#6d2932]">
+            Official Love Recognition
+          </p>
+          <h2 class="font-serif-vintage text-2xl sm:text-4xl font-bold text-[#3e2723] mt-1 mb-4">
+            PIAGAM PENGHARGAAN
+          </h2>
+
+          <p class="text-xs sm:text-sm text-[#6d4c41] italic mb-2">Dengan bangga diberikan kepada:</p>
+          <h3 class="font-handwriting text-3xl sm:text-5xl font-bold text-[#6d2932] underline decoration-[#c59b27] decoration-wavy underline-offset-8 mb-6">
+            ITA FATIMAH FITRIANI
+          </h3>
+
+          <p class="text-sm sm:text-base text-[#3e2723] max-w-xl mx-auto leading-relaxed mb-8">
+            Sebagai <strong>Pasangan Terbaik, Tersabar, dan Terfavorit Seri Dunia</strong> yang selalu berhasil menghadirkan kebahagiaan, tawa, dan warna terindah dalam setiap hari yang dijalani bersama <strong>FATKHURRIZAL</strong>.
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center justify-around gap-6 pt-4 border-t border-[#d6c5ab]">
+            <div>
+              <p class="text-xs text-[#6f5238]">Tanggal Ditetapkan</p>
+              <p class="font-serif-vintage font-bold text-sm text-[#3e2723] mt-1">1 Desember 2026</p>
+            </div>
+
+            <!-- Stempel Emas -->
+            <div class="w-16 h-16 rounded-full bg-gradient-to-br from-[#e5c158] via-[#c59b27] to-[#9a7414] text-[#2c1810] flex flex-col items-center justify-center shadow-md border-2 border-[#fff3c4]">
+              <i class="fa-solid fa-certificate text-lg"></i>
+              <span class="text-[8px] font-bold uppercase tracking-tighter">100% VALID</span>
+            </div>
+
+            <div>
+              <p class="text-xs text-[#6f5238]">Pemberi Penghargaan</p>
+              <img id="certificate-signature-img" src="ttd-rizal.png" alt="Tanda Tangan Fatkhurrizal" onerror="this.style.display='none'" class="h-14 sm:h-16 object-contain mx-auto my-1 mix-blend-multiply select-none" />
+              <p class="font-handwriting text-2xl font-bold text-[#6d2932]">Fatkhurrizal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8b. ALASAN (OPSIONAL, MUNCUL JIKA CONFIG.reasons DIISI) -->
+    <section id="reasons-section" class="hidden max-w-3xl mx-auto">
+      <div class="parchment-sheet rounded-2xl p-6 sm:p-10 text-center">
+        <h2 class="font-serif-vintage text-2xl sm:text-3xl font-bold text-[#3e2723] mb-1"><span class="age-num">22</span> Alasan Aku Sayang Kamu</h2>
+        <p class="text-sm text-[#6d4c41] mb-4">Ketuk tombol untuk membuka satu per satu</p>
+        <p id="reason-text" class="font-handwriting text-2xl text-[#6d2932] min-h-[3.5rem]"></p>
+        <button type="button" onclick="nextReason()" class="mt-3 px-6 py-3 rounded-full bg-[#6d2932] text-[#fdfaf4] text-sm font-semibold cursor-pointer"><span id="reason-btn-text">Buka alasan pertama</span></button>
+        <p id="reason-count" class="text-xs text-[#6f5238] mt-3"></p>
+      </div>
+    </section>
+
+    <!-- 9. GALERI MEMORIES (8 FOTO POLAROID KENANGAN) -->
+    <section class="max-w-5xl mx-auto">
+      <div class="text-center mb-8">
+        <span class="text-xs uppercase tracking-[0.2em] text-[#6d2932] font-semibold">Scrapbook Galeri</span>
+        <h2 class="font-serif-vintage text-2xl sm:text-4xl font-bold text-[#3e2723] mt-1">
+          Lembaran Kenangan Indah Kita
+        </h2>
+        <p class="text-sm text-[#6d4c41] mt-1">Klik pada foto untuk memperbesar kenangan</p>
+      </div>
+
+      <div id="memories-photo-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
+        <!-- Polaroid Cards dirender oleh JS -->
+      </div>
+      <div class="text-center mt-8">
+        <button id="btn-more-photos" type="button" onclick="showAllPhotos()" class="hidden px-6 py-3 rounded-full border-2 border-[#6d2932] text-[#6d2932] text-sm font-semibold cursor-pointer hover:bg-[#6d2932] hover:text-white transition">Lihat semua foto</button>
+      </div>
+    </section>
+
+    <!-- 10. KAPSUL BALASAN LANGSUNG KE WHATSAPP -->
+    <section class="max-w-2xl mx-auto">
+      <div class="parchment-sheet rounded-2xl p-6 sm:p-10 border-2 border-[#6d2932]/30 text-center">
+        <div class="w-12 h-12 mx-auto mb-3 rounded-full bg-[#6d2932] text-[#e5c158] flex items-center justify-center text-xl shadow">
+          <i class="fa-solid fa-paper-plane"></i>
+        </div>
+        <span class="text-xs uppercase tracking-[0.2em] text-[#6d2932] font-semibold">Kapsul Waktu Digital</span>
+        <h2 class="font-serif-vintage text-2xl sm:text-3xl font-bold text-[#3e2723] mt-1 mb-2">
+          Tulis Harapan &amp; Balasan untuk Rizal
+        </h2>
+        <p class="text-xs sm:text-sm text-[#6d4c41] mb-5">
+          Setelah membaca semua kejutan di halaman ini, tuliskan doa, permohonan ulang tahun, atau pesan balasanmu di bawah ini ya sayang:
+        </p>
+
+        <textarea
+          id="reply-letter-input"
+          rows="4"
+          placeholder="Tulis pesan balasan atau wish ulang tahunmu di sini, Ita..."
+          class="w-full rounded-xl border border-[#d6c5ab] bg-[#fffdf9] p-4 text-sm text-[#3e2723] focus:outline-none focus:border-[#6d2932] shadow-inner mb-4"></textarea>
+
+        <button
+          type="button"
+          onclick="sendReplyToWhatsApp()"
+          class="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-full bg-[#6d2932] hover:bg-[#4a1920] text-[#fdfaf4] font-semibold text-sm shadow-lg transition cursor-pointer">
+          <i class="fa-brands fa-whatsapp text-lg text-[#e5c158]"></i>
+          <span>Kirim Balasan Surat ke Rizal ❤️</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="text-center pb-6 space-y-1">
+      <p class="font-handwriting text-3xl text-[#6d2932]">Sekali lagi, selamat ulang tahun, Ita ❤️</p>
+      <p class="text-xs text-[#6f5238]">Dibuat dengan sepenuh hati oleh Fatkhurrizal · 1 Desember 2026</p>
+    </footer>
+
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- 11. TOMBOL MELAYANG "KIRIM PELUK VIRTUAL" (POJOK KIRI BAWAH)          -->
+  <!-- ===================================================================== -->
+  <button
+    type="button"
+    id="hug-btn" style="bottom:calc(1rem + env(safe-area-inset-bottom,0px))" onclick="sendVirtualHug()" class="hidden fixed left-4 z-40 flex items-center gap-2 bg-[#6d2932] hover:bg-[#4a1920] active:scale-95 text-[#fdfaf4] px-4 py-3 rounded-full shadow-xl border-2 border-[#e5c158] transition cursor-pointer">
+    <span class="text-sm font-semibold tracking-wide">Kirim Peluk 💖</span>
+  </button>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL UNIVERSAL (UNTUK KOTAK SURAT "BUKA SAAT..." & LIGHTBOX FOTO)    -->
+  <!-- ===================================================================== -->
+  <div id="universal-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-[#2c1810]/85 backdrop-blur-sm p-4" onclick="closeUniversalModal(event)">
+    <div class="parchment-sheet max-w-lg w-full rounded-2xl p-6 sm:p-8 relative border-2 border-[#c59b27] shadow-2xl" onclick="event.stopPropagation()">
+      <button type="button" onclick="hideUniversalModal()" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-[#6d2932] text-white flex items-center justify-center hover:bg-[#4a1920] cursor-pointer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modal-content-area" class="text-center"></div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT LOGIC                                                      -->
+  <!-- ===================================================================== -->
+  <script>
+    // -------------------------------------------------------------------
+    // 1. DATA TEKS SURAT CINTA (EFEK MESIN TIK)
+    // -------------------------------------------------------------------
+    const store = {
+      get(k) { try { return localStorage.getItem("ita_" + k); } catch (e) { return null; } },
+      set(k, v) { try { localStorage.setItem("ita_" + k, v); } catch (e) {} },
+      clear() { try { Object.keys(localStorage).filter(k => k.startsWith("ita_")).forEach(k => localStorage.removeItem(k)); } catch (e) {} }
+    };
+
+    const fullLoveLetterText =
+      "Selamat ulang tahun yang paling istimewa untuk perempuan hebat yang selalu berhasil bikin hari-hariku terasa jauh lebih hangat dan berarti.\n\n" +
+      "Terima kasih sudah hadir, bertahan, dan berjalan berdampingan sejauh ini. Terima kasih untuk setiap sabarmu, tawa renyahmu, perhatian kecilmu, dan semua cerita sederhana yang berubah jadi kenangan luar biasa setiap kali kita bersama.\n\n" +
+      "Di usiamu yang baru ini, aku berdoa semoga semua impian yang sedang kamu perjuangkan dimudahkan jalannya, kesehatan dan kebahagiaan selalu memelukmu erat, dan senyum manismu tidak pernah pudar sedikit pun.\n\n" +
+      (CONFIG.personalMemory ? CONFIG.personalMemory + "\n\n" : "") + "Apa pun yang terjadi ke depannya, ingat ya: kamu selalu punya aku sebagai rumah tempatmu pulang dan bercerita.";
+
+    let typewriterStarted = false;
+    let typewriterTimer = null;
+
+    function startTypewriterEffect() {
+      if (typewriterStarted) return;
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { finishTypewriterImmediately(); return; }
+      typewriterStarted = true;
+
+      const outputEl = document.getElementById("typed-letter-output");
+      let charIndex = 0;
+
+      typewriterTimer = setInterval(() => {
+        if (charIndex < fullLoveLetterText.length) {
+          outputEl.textContent += fullLoveLetterText.charAt(charIndex);
+          charIndex++;
+        } else {
+          clearInterval(typewriterTimer);
+          outputEl.classList.remove("typewriter-cursor");
+          const skipBtn = document.getElementById("btn-skip-typewriter");
+          if (skipBtn) skipBtn.classList.add("hidden");
+        }
+      }, 35);
+    }
+
+    function finishTypewriterImmediately() {
+      if (typewriterTimer) clearInterval(typewriterTimer);
+      typewriterStarted = true;
+      const outputEl = document.getElementById("typed-letter-output");
+      outputEl.textContent = fullLoveLetterText;
+      outputEl.classList.remove("typewriter-cursor");
+      const skipBtn = document.getElementById("btn-skip-typewriter");
+      if (skipBtn) skipBtn.classList.add("hidden");
+    }
+
+    // -------------------------------------------------------------------
+    // 2. DATA 20 SOAL LOVE QUIZ (SALAH SATU ULANG DARI AWAL + NO 20 ESSAY)
+    // -------------------------------------------------------------------
+    const quizData = [
+      {
+        question: "1. 2 jam",
+        options: ["A. Tidur", "B. Game", "C. Kayang"],
+        correctIndices: [2]
+      },
+      {
+        question: "2. Pesawat",
+        options: ["A. ATR 400", "B. Lion air", "C. Citilink"],
+        correctIndices: [0]
+      },
+      {
+        question: "3. Hotel",
+        options: ["A. Oyo", "B. Podomoro", "C. Reddoorz"],
+        correctIndices: [1]
+      },
+      {
+        question: "4. Nomor WA",
+        options: ["A. 0895402413788", "B. 0895402412788", "C. 0895402411788"],
+        correctIndices: [1]
+      },
+      {
+        question: "5. Rawan",
+        options: ["A. 00.00-.....", "B. 12.00-.....", "C. 08.00-....."],
+        correctIndices: [0]
+      },
+      {
+        question: "6. Bapak ku",
+        options: ["A. Dono", "B. Doni", "C. Dani"],
+        correctIndices: [1]
+      },
+      {
+        question: "7. Ibu ku",
+        options: ["A. Paisri", "B. Jamisri", "C. Sri Fatma"],
+        correctIndices: [1]
+      },
+      {
+        question: "8. Rizal suka",
+        options: ["A. Marissa", "B. Marissa", "C. Marissa", "D. Ita Fatimah Fitriani"],
+        correctIndices: [3]
+      },
+      {
+        question: "9. First muah",
+        options: ["A. Sore", "B. Siang", "C. Pagi"],
+        correctIndices: [0]
+      },
+      {
+        question: "10. Transportasi?",
+        options: ["A. Pesawat", "B. BMW", "C. Astrea", "D. Kuda poni"],
+        correctIndices: [2]
+      },
+      {
+        question: "11. Kesukaan ku",
+        options: ["A. Ita", "B. Ita", "C. Ita", "D. Ita"],
+        correctIndices: [0, 1, 2, 3]
+      },
+      {
+        question: "12. Aku punya agenda besok mau (Pov Ita)",
+        options: ["A. Besok Makan seblak", "B. Besok pergi nongkrong", "C. Mau selingkuh", "D. Kok ngatur"],
+        correctIndices: [2, 3]
+      },
+      {
+        question: "13. Yang ngebuat soal kecewa siih kamu nya milih mau selingkuh. Soal selanjutnya: Sayur",
+        options: ["A. Terong", "B. Wortel", "C. Semua sayur"],
+        correctIndices: [0, 1, 2]
+      },
+      {
+        question: "14. Buah kesukaan ku",
+        options: ["A. Durian", "B. Durian", "C. Durian", "D. Muah-Muahan"],
+        correctIndices: [3]
+      },
+      {
+        question: "15. Rizal boleh ngegame, janji gak marah?",
+        options: ["A. Boleh", "B. Boleh", "C. Boleh"],
+        correctIndices: [0, 1, 2]
+      },
+      {
+        question: "16. Asal",
+        options: [
+          "A. Mayangan Gumukmas Jember",
+          "B. Rt 003.Rw 004 Kepanjen Gumukmas Jember",
+          "C. Rt 001.Rw 014 Kencong Jember",
+          "D. Sumbersari Tanggulmas Jember"
+        ],
+        correctIndices: [0]
+      },
+      {
+        question: "17. Saya suka (Pov Ita)",
+        options: ["A. Anam", "B. Adi faisal", "C. Pak anto", "D. Rizal"],
+        correctIndices: [3]
+      },
+      {
+        question: "18. Better Android apa iPhone?",
+        options: ["A. Better iPhone", "B. Better Android", "C. Better BMW pitu"],
+        correctIndices: [1]
+      },
+      {
+        question: "19. Janji gak ngambekan?",
+        options: ["A. Iya", "B. Iya", "C. Iya", "D. Kok ngatur"],
+        correctIndices: [0, 1, 2]
+      },
+      {
+        question: "20. Kenapa bumi bulat?",
+        isEssay: true
+      }
+    ];
+
+    // -------------------------------------------------------------------
+    // 3. DATA KOTAK SURAT "BUKA SAAT..." (MENGGUNAKAN KATA "AKU")
+    // -------------------------------------------------------------------
+    const openWhenLetters = [
+      {
+        title: "Saat Ita Lagi Kangen Aku 💖",
+        icon: "fa-heart",
+        message: "Hai sayangku Ita... Kalau kamu lagi buka amplop ini karena kangen, pejamkan mata sebentar ya. Ingat kalau di sini ada Aku yang juga selalu mikirin kamu dan berdoa buat kebaikanmu. Klik tombol 'Kirim Peluk' di pojok kiri bawah, terus langsung chat atau telepon aku ya! ❤️"
+      },
+      {
+        title: "Saat Ita Lagi Ngambek Sama Aku 🥺",
+        icon: "fa-face-kiss-wink-heart",
+        message: "Maafin Aku ya sayang kalau ada sikap atau kata-kata aku yang bikin kamu kesel. Jangan lama-lama ngambeknya, nanti cantiknya berkurang lho! Tarik napas dalam-dalam... yuk baikan, sini aku traktir makanan kesukaanmu biar senyum lagi ❤️"
+      },
+      {
+        title: "Saat Ita Lagi Butuh Semangat ✨",
+        icon: "fa-sun",
+        message: "Hei perempuan hebat kebanggaanku! Apa pun yang lagi bikin kamu capek hari ini, ingat kalau kamu udah sejauh ini berjuang dan kamu selalu mampu melewatinya. Jangan pernah merasa sendirian ya Ita, Aku selalu dukung dan bangga sama kamu setiap hari! Ingat kalimat aku sayang \"KAN AKU?\" ❤️"
+      }
+    ];
+
+    // -------------------------------------------------------------------
+    // 4. SISTEM AUDIO (FILE MP3 ATAU SYNTHESIZER MELODI HAPPY BIRTHDAY)
+    // -------------------------------------------------------------------
+    let isMusicPlaying = false;
+    let audioCtx = null;
+    let melodyTimer = null;
+
+    function playMusicBoxHappyBirthday() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === "suspended") {
+        audioCtx.resume();
+      }
+
+      const notes = [
+        [261.63, 0.32], [261.63, 0.22], [293.66, 0.55], [261.63, 0.55], [349.23, 0.55], [329.63, 1.0],
+        [261.63, 0.32], [261.63, 0.22], [293.66, 0.55], [261.63, 0.55], [392.00, 0.55], [349.23, 1.0],
+        [261.63, 0.32], [261.63, 0.22], [523.25, 0.55], [440.00, 0.55], [349.23, 0.55], [329.63, 0.55], [293.66, 0.9],
+        [466.16, 0.32], [466.16, 0.22], [440.00, 0.55], [349.23, 0.55], [392.00, 0.55], [349.23, 1.1]
+      ];
+
+      let noteIndex = 0;
+
+      function scheduleNextNote() {
+        if (!isMusicPlaying) return;
+        if (document.hidden) { melodyTimer = setTimeout(scheduleNextNote, 500); return; }
+        const [freq, duration] = notes[noteIndex];
+
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+        gain.gain.setValueAtTime(0.001, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.14, audioCtx.currentTime + 0.04);
+        gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + duration + 0.05);
+
+        noteIndex = (noteIndex + 1) % notes.length;
+        const pauseExtra = noteIndex === 0 ? 1200 : duration * 1000 + 80;
+        melodyTimer = setTimeout(scheduleNextNote, pauseExtra);
+      }
+
+      scheduleNextNote();
+    }
+
+    function startBackgroundMusic() {
+      if (isMusicPlaying) return;
+      isMusicPlaying = true;
+      updateMusicIcon();
+
+      const bgAudio = document.getElementById("bg-music");
+      if (CONFIG.audioFileUrl && CONFIG.audioFileUrl.trim() !== "") {
+        bgAudio.src = CONFIG.audioFileUrl;
+        bgAudio.play().catch(() => {
+          playMusicBoxHappyBirthday();
+        });
+      } else {
+        playMusicBoxHappyBirthday();
+      }
+    }
+
+    function stopBackgroundMusic() {
+      isMusicPlaying = false;
+      updateMusicIcon();
+      const bgAudio = document.getElementById("bg-music");
+      bgAudio.pause();
+      if (melodyTimer) clearTimeout(melodyTimer);
+    }
+
+    function toggleMusic() {
+      if (isMusicPlaying) {
+        stopBackgroundMusic();
+      } else {
+        startBackgroundMusic();
+      }
+    }
+
+    function updateMusicIcon() {
+      const icon = document.getElementById("music-icon");
+      if (!icon) return;
+      if (isMusicPlaying) {
+        icon.className = "fa-solid fa-volume-high animate-pulse";
+      } else {
+        icon.className = "fa-solid fa-volume-xmark";
+      }
+    }
+
+    // -------------------------------------------------------------------
+    // 5. AMPLOP PEMBUKA BERSEGEL STEMPEL LILIN
+    // -------------------------------------------------------------------
+    document.getElementById("open-envelope-btn").addEventListener("click", function () {
+      const overlay = document.getElementById("envelope-overlay");
+      overlay.classList.add("opacity-0", "pointer-events-none");
+      setTimeout(() => {
+        overlay.style.display = "none";
+      }, 700);
+      startBackgroundMusic();
+    });
+
+    // -------------------------------------------------------------------
+    // 6. PENGATURAN MODE (COUNTDOWN VS MODE HARI H) & TIMER WIB
+    // -------------------------------------------------------------------
+    let manualModeOverride = null;
+
+    function setMode(mode) {
+      manualModeOverride = mode;
+      const countdownView = document.getElementById("countdown-view");
+      const birthdayView = document.getElementById("birthday-view");
+      const btnCd = document.getElementById("btn-mode-countdown");
+      const btnBd = document.getElementById("btn-mode-birthday");
+
+      if (mode === "birthday") {
+        countdownView.classList.add("hidden");
+        const wasHidden = birthdayView.classList.contains("hidden");
+        birthdayView.classList.remove("hidden");
+        document.getElementById("hug-btn").classList.remove("hidden");
+        if (wasHidden) { loadPinnedVideo(); window.scrollTo(0, 0); }
+
+        btnBd.className = "px-2.5 py-1 rounded-full transition font-medium cursor-pointer bg-[#6d2932] text-white";
+        btnCd.className = "px-2.5 py-1 rounded-full transition font-medium cursor-pointer text-[#e6d7c1] hover:text-white";
+
+        if (wasHidden) launchCelebrationConfetti();
+      } else {
+        birthdayView.classList.add("hidden");
+        document.getElementById("hug-btn").classList.add("hidden");
+        countdownView.classList.remove("hidden");
+
+        btnCd.className = "px-2.5 py-1 rounded-full transition font-medium cursor-pointer bg-[#6d2932] text-white";
+        btnBd.className = "px-2.5 py-1 rounded-full transition font-medium cursor-pointer text-[#e6d7c1] hover:text-white";
+      }
+    }
+
+    function updateCountdown() {
+      const targetTime = new Date(CONFIG.targetDateWIB).getTime();
+      const now = Date.now();
+      const diff = targetTime - now;
+      const fc = document.getElementById("final-count");
+      if (diff > 0 && diff <= 3500 && manualModeOverride !== "birthday") { fc.textContent = Math.max(1, Math.ceil(diff / 1000)); fc.classList.remove("hidden"); } else { fc.classList.add("hidden"); }
+
+      if (diff <= 0) {
+        if (manualModeOverride !== "countdown") {
+          setMode("birthday");
+        }
+        return;
+      }
+
+      if (!manualModeOverride) {
+        const countdownView = document.getElementById("countdown-view");
+        const birthdayView = document.getElementById("birthday-view");
+        if (countdownView.classList.contains("hidden") && !birthdayView.classList.contains("hidden")) {
+          setMode("countdown");
+        }
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / 1000 / 60) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+
+      document.getElementById("cd-days").textContent = String(days).padStart(2, "0");
+      document.getElementById("cd-hours").textContent = String(hours).padStart(2, "0");
+      document.getElementById("cd-minutes").textContent = String(minutes).padStart(2, "0");
+      document.getElementById("cd-seconds").textContent = String(seconds).padStart(2, "0");
+    }
+
+    // -------------------------------------------------------------------
+    // 7. INTERAKSI TIUP LILIN (WAJIB MIKROFON HP) & KONFETI
+    // -------------------------------------------------------------------
+    let candleBlown = false;
+    let micStream = null;
+    let micMonitoring = false;
+
+    function showManualBlow() {
+      const b = document.getElementById("btn-manual-blow");
+      if (b && !candleBlown) b.classList.remove("hidden");
+    }
+
+    function remindMicBlow() {
+      if (candleBlown) return;
+      const instruction = document.getElementById("candle-instruction");
+      instruction.innerHTML = `<i class="fa-solid fa-microphone-lines mr-1"></i> Eits, nggak boleh diketuk! Nyalakan mikrofon dan tiup lilinnya sungguhan ya sayang 🌬️`;
+      instruction.className = "mt-4 text-xs sm:text-sm font-semibold text-[#fdfaf4] bg-[#6d2932] px-4 py-1.5 rounded-full animate-bounce";
+
+      if (!micMonitoring) {
+        enableMicBlow();
+      }
+    }
+
+    function blowCandle(silent) {
+      if (candleBlown) return;
+      candleBlown = true;
+      micMonitoring = false;
+
+      if (micStream) {
+        micStream.getTracks().forEach((track) => track.stop());
+      }
+
+      const flame = document.getElementById("candle-flame");
+      const smoke = document.getElementById("candle-smoke");
+      const instruction = document.getElementById("candle-instruction");
+      const micBtn = document.getElementById("btn-mic-blow");
+
+      flame.classList.add("hidden");
+      smoke.classList.remove("hidden");
+      smoke.classList.add("candle-smoke");
+      if (micBtn) micBtn.classList.add("hidden");
+
+      instruction.innerHTML = `<i class="fa-solid fa-cake-candles mr-1"></i> Yeay! Semoga semua harapan Ita Fatimah Fitriani terkabul tahun ini! 🎉`;
+      instruction.className = "mt-4 text-xs sm:text-sm font-semibold text-[#fdfaf4] bg-[#6d2932] px-5 py-2 rounded-full shadow-md";
+
+      if (!silent) launchCelebrationConfetti();
+      store.set("candle", "1");
+      const mb = document.getElementById("btn-manual-blow");
+      if (mb) mb.classList.add("hidden");
+    }
+
+    async function enableMicBlow() {
+      if (candleBlown) return;
+      const statusText = document.getElementById("mic-status-text");
+
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        statusText.textContent = "Browser tidak mendukung mikrofon — coba buka lewat Chrome/Safari ya!"; showManualBlow();
+        return;
+      }
+
+      try {
+        statusText.textContent = "Meminta izin mikrofon...";
+        micStream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false }, video: false });
+
+        const micCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (micCtx.state === "suspended") await micCtx.resume();
+        const source = micCtx.createMediaStreamSource(micStream);
+        const analyser = micCtx.createAnalyser();
+        analyser.fftSize = 1024;
+        source.connect(analyser);
+
+        const dataArray = new Uint8Array(analyser.fftSize);
+        let baseline = null, loudFrames = 0;
+        micMonitoring = true;
+        setTimeout(showManualBlow, 12000);
+        statusText.textContent = "Mikrofon aktif! Tiup ke arah HP sekarang 🌬️🕯️";
+
+        function detectBlowVolume() {
+          if (!micMonitoring || candleBlown) return;
+          analyser.getByteTimeDomainData(dataArray);
+          let sq = 0;
+          for (let i = 0; i < dataArray.length; i++) { const v = (dataArray[i] - 128) / 128; sq += v * v; }
+          const rms = Math.sqrt(sq / dataArray.length);
+          baseline = baseline === null ? rms : baseline * 0.98 + rms * 0.02;
+          loudFrames = rms > Math.max(0.2, baseline * 4) ? loudFrames + 1 : 0;
+
+          if (loudFrames >= 8) {
+            blowCandle();
+            return;
+          }
+
+          requestAnimationFrame(detectBlowVolume);
+        }
+
+        detectBlowVolume();
+      } catch (err) {
+        statusText.textContent = "Izin mikrofon ditolak — izinkan mikrofon di pengaturan browser ya sayang!"; showManualBlow();
+      }
+    }
+
+    function launchCelebrationConfetti() {
+      if (typeof confetti !== "function") return;
+      const colors = ["#6d2932", "#c59b27", "#e5c158", "#fdfaf4", "#d81b60"];
+      confetti({
+        particleCount: 90,
+        spread: 75,
+        origin: { y: 0.6 },
+        colors: colors
+      });
+      setTimeout(() => {
+        confetti({
+          particleCount: 60,
+          angle: 60,
+          spread: 55,
+          origin: { x: 0 },
+          colors: colors
+        });
+        confetti({
+          particleCount: 60,
+          angle: 120,
+          spread: 55,
+          origin: { x: 1 },
+          colors: colors
+        });
+      }, 350);
+    }
+
+    // -------------------------------------------------------------------
+    // 8. LOVE QUIZ LOGIC (20 SOAL - SALAH SATU ULANG DARI AWAL)
+    // -------------------------------------------------------------------
+    let currentQuizIndex = Math.min(Number(store.get("quizCp")) || 0, 19);
+    let isQuizLocked = false;
+
+    function renderQuiz() {
+      isQuizLocked = false;
+      const item = quizData[currentQuizIndex];
+      const total = quizData.length;
+
+      document.getElementById("quiz-progress").textContent = `Pertanyaan ${currentQuizIndex + 1} dari ${total}`;
+      const pct = Math.round(((currentQuizIndex + 1) / total) * 100);
+      document.getElementById("quiz-progress-bar").style.width = `${pct}%`;
+
+      document.getElementById("quiz-question").textContent = item.question.replace(/^\d+\.\s*/, "");
+
+      const optionsBox = document.getElementById("quiz-options");
+      const essayBox = document.getElementById("quiz-essay-box");
+      const badgeType = document.getElementById("quiz-badge-type");
+
+      if (item.isEssay) {
+        badgeType.innerHTML = `<i class="fa-solid fa-pen-nib"></i> Pertanyaan Terakhir (Essay)`;
+        optionsBox.classList.add("hidden");
+        essayBox.classList.remove("hidden");
+        document.getElementById("quiz-essay-input").value = "";
+      } else {
+        badgeType.innerHTML = `<i class="fa-solid fa-heart"></i> Ingat-ingat yaa`;
+        essayBox.classList.add("hidden");
+        optionsBox.classList.remove("hidden");
+        optionsBox.innerHTML = item.options
+          .map(
+            (opt, idx) => `
+            <button type="button" onclick="checkQuizAnswer(${idx})" class="w-full text-left px-5 py-3.5 rounded-xl border border-[#d6c5ab] bg-white hover:bg-[#6d2932] hover:text-white hover:border-[#6d2932] transition font-medium text-sm shadow-sm cursor-pointer">
+              ${opt}
+            </button>
+          `
+          )
+          .join("");
+      }
+    }
+
+    function checkQuizAnswer(selectedIndex) {
+      if (isQuizLocked) return;
+      isQuizLocked = true;
+
+      const item = quizData[currentQuizIndex];
+      const feedback = document.getElementById("quiz-feedback");
+      const container = document.getElementById("quiz-container");
+
+      if (item.correctIndices.includes(selectedIndex)) {
+        feedback.className = "mt-4 p-3.5 rounded-xl text-center text-sm font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300";
+        feedback.textContent = "Bener banget sayang! Lanjut ke soal berikutnya ❤️";
+        feedback.classList.remove("hidden");
+
+        setTimeout(() => {
+          feedback.classList.add("hidden");
+          currentQuizIndex++;
+          if (currentQuizIndex % 5 === 0) store.set("quizCp", currentQuizIndex);
+          renderQuiz();
+        }, 700);
+      } else {
+        container.classList.remove("shake-error");
+        void container.offsetWidth;
+        container.classList.add("shake-error");
+
+        feedback.className = "mt-4 p-3.5 rounded-xl text-center text-sm font-semibold bg-rose-100 text-rose-800 border border-rose-300";
+        feedback.textContent = `Tetot! Jawaban salah 😜 Kita mundur ke checkpoint (soal ${Math.floor(currentQuizIndex / 5) * 5 + 1}) ya!${item.hint ? " 💡 " + item.hint : ""}`;
+        feedback.classList.remove("hidden");
+
+        setTimeout(() => {
+          feedback.classList.add("hidden");
+          currentQuizIndex = Math.floor(currentQuizIndex / 5) * 5;
+          renderQuiz();
+        }, 1600);
+      }
+    }
+
+    function submitEssayQuiz() {
+      const essay = document.getElementById("quiz-essay-input").value.trim();
+      if (essay.length < 3) {
+        const f = document.getElementById("quiz-feedback");
+        f.className = "mt-4 p-3.5 rounded-xl text-center text-sm font-semibold bg-rose-100 text-rose-800 border border-rose-300";
+        f.textContent = "Tulis dulu jawabanmu ya sayang 😘";
+        return;
+      }
+      quizEssayAnswer = essay;
+      if (isQuizLocked) return;
+      isQuizLocked = true;
+
+      const feedback = document.getElementById("quiz-feedback");
+      feedback.className = "mt-4 p-3.5 rounded-xl text-center text-sm font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300";
+      feedback.textContent = "Jawaban yang luar biasa! 100% Benar! ❤️";
+      feedback.classList.remove("hidden");
+
+      setTimeout(() => {
+        feedback.classList.add("hidden");
+        document.getElementById("quiz-body").classList.add("hidden");
+        document.getElementById("quiz-success").classList.remove("hidden");
+        store.set("quizDone", "1");
+        launchCelebrationConfetti();
+      }, 900);
+    }
+
+    // -------------------------------------------------------------------
+    // 9. RENDER GALERI POLAROID & MODAL "BUKA SAAT..."
+    // -------------------------------------------------------------------
+    function renderGalleries() {
+      
+      document.getElementById("letter-signature-img").src = CONFIG.signatureImageUrl;
+      document.getElementById("certificate-signature-img").src = CONFIG.signatureImageUrl;
+
+      const mainPhotoGrid = document.getElementById("memories-photo-grid");
+      mainPhotoGrid.innerHTML = CONFIG.memoriesPhotos
+        .map(
+          (item, i) => ` <div role="button" tabindex="0" aria-label="Buka foto ${i + 1}" onkeydown="if(event.key==='Enter')openPhotoLightbox(${i})" onclick="openPhotoLightbox(${i})" class="polaroid-card rounded-sm cursor-pointer ${i >= 9 ? "extra-photo hidden" : ""}" style="transform: rotate(${item.rotate});">
+            <div class="washi-tape"></div>
+            <span class="absolute top-2 left-2 text-lg drop-shadow-sm select-none">${item.cornerEmote}</span>
+            <span class="absolute top-2 right-2 text-lg drop-shadow-sm select-none">${item.cornerEmote}</span>
+            <img src="${item.url}" alt="Kenangan Kita ${i + 1}" loading="lazy" class="w-full h-64 object-cover rounded-sm mb-3" />
+            <div class="text-center text-xl sm:text-2xl tracking-widest pt-1 select-none">
+              ${item.emotes}
+            </div>
+          </div>
+        `
+        )
+        .join("");
+    }
+
+    function openWhenModal(index) {
+      const item = openWhenLetters[index];
+      const modalArea = document.getElementById("modal-content-area");
+      modalArea.innerHTML = `
+        <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-[#6d2932] text-[#e5c158] flex items-center justify-center text-2xl shadow">
+          <i class="fa-solid ${item.icon}"></i>
+        </div>
+        <h3 class="font-serif-vintage text-xl sm:text-2xl font-bold text-[#6d2932] mb-4">${item.title}</h3>
+        <p class="font-handwriting text-2xl text-[#3e2723] leading-relaxed mb-6">"${item.message}"</p>
+        <p class="text-xs text-[#6f5238] font-semibold">— Selalu sayang kamu, Aku ❤️</p>
+      `;
+      showUniversalModal();
+    }
+
+    let lbIndex = -1;
+    function openPhotoLightbox(i) {
+      const n = CONFIG.memoriesPhotos.length;
+      lbIndex = (i + n) % n;
+      const p = CONFIG.memoriesPhotos[lbIndex];
+      document.getElementById("modal-content-area").innerHTML = `
+        <img src="${p.url}" alt="Kenangan Kita ${lbIndex + 1}" class="w-full max-h-[60vh] object-contain rounded-lg mb-3 shadow-md mx-auto" />
+        <div class="flex items-center justify-center gap-5">
+          <button type="button" aria-label="Foto sebelumnya" onclick="openPhotoLightbox(lbIndex - 1)" class="w-9 h-9 rounded-full bg-[#6d2932] text-white text-xl cursor-pointer">‹</button>
+          <span class="text-2xl tracking-widest select-none">${p.emotes}</span>
+          <button type="button" aria-label="Foto berikutnya" onclick="openPhotoLightbox(lbIndex + 1)" class="w-9 h-9 rounded-full bg-[#6d2932] text-white text-xl cursor-pointer">›</button>
+        </div>`;
+      showUniversalModal();
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") hideUniversalModal();
+      else if (lbIndex >= 0 && e.key === "ArrowRight") openPhotoLightbox(lbIndex + 1);
+      else if (lbIndex >= 0 && e.key === "ArrowLeft") openPhotoLightbox(lbIndex - 1);
+    });
+
+    function showUniversalModal() {
+      document.body.style.overflow = "hidden";
+      const modal = document.getElementById("universal-modal");
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+    }
+
+    function hideUniversalModal() {
+      lbIndex = -1;
+      document.body.style.overflow = "";
+      const modal = document.getElementById("universal-modal");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+
+    function closeUniversalModal(event) {
+      if (event.target.id === "universal-modal") {
+        hideUniversalModal();
+      }
+    }
+
+    // -------------------------------------------------------------------
+    // 10. TOMBOL KIRIM PELUK VIRTUAL (ANIMASI HATI TERBANG)
+    // -------------------------------------------------------------------
+    function sendVirtualHug() {
+      const heartSymbols = ["❤️", "💖", "💕", "💗", "🥰", "💓"];
+      for (let i = 0; i < 14; i++) {
+        const heart = document.createElement("div");
+        heart.className = "floating-hug-heart";
+        heart.textContent = heartSymbols[Math.floor(Math.random() * heartSymbols.length)];
+        heart.style.left = `${15 + Math.random() * 75}px`;
+        heart.style.fontSize = `${18 + Math.random() * 20}px`;
+        heart.style.animationDuration = `${2.2 + Math.random() * 1.5}s`;
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+          heart.remove();
+        }, 3800);
+      }
+    }
+
+    // -------------------------------------------------------------------
+    // 11. KIRIM BALASAN SURAT LANGSUNG KE WHATSAPP RIZAL
+    // -------------------------------------------------------------------
+    function openWA(text) {
+      const url = `https://wa.me/${CONFIG.rizalWhatsAppNumber}?text=${encodeURIComponent(text)}`;
+      if (!window.open(url, "_blank")) location.href = url;
+    }
+
+    let quizEssayAnswer = "";
+    function claimQuizPrize() {
+      openWA(`Halo sayangku Fatkhurrizal ❤️\nAku (Ita) sudah menyelesaikan semua kuis!\n\nJawaban soal terakhirku: "${quizEssayAnswer || "-"}"\n\nAku mau klaim hadiahnya sekarang 🎁😘`);
+    }
+
+    function showAllPhotos() {
+      document.querySelectorAll(".extra-photo").forEach((el) => el.classList.remove("hidden"));
+      document.getElementById("btn-more-photos").classList.add("hidden");
+    }
+
+    let reasonIdx = 0;
+    function nextReason() {
+      const r = CONFIG.reasons;
+      if (!r.length) return;
+      const k = reasonIdx % r.length;
+      document.getElementById("reason-text").textContent = `"${r[k]}"`;
+      document.getElementById("reason-count").textContent = `Alasan ${k + 1} dari ${r.length}`;
+      document.getElementById("reason-btn-text").textContent = "Alasan berikutnya";
+      reasonIdx++;
+    }
+
+    function loadPinnedVideo() {
+      const sec = document.getElementById("video-section");
+      const fr = document.getElementById("pinned-video-iframe");
+      if (!CONFIG.pinnedVideoEmbedUrl) { fr.classList.add("hidden"); document.getElementById("video-placeholder").classList.remove("hidden"); return; }
+      if (!fr.getAttribute("src")) fr.src = CONFIG.pinnedVideoEmbedUrl;
+    }
+
+    function sendReplyToWhatsApp() {
+      const messageText = document.getElementById("reply-letter-input").value.trim();
+      if (!messageText) {
+        const ta = document.getElementById("reply-letter-input");
+        ta.placeholder = "Tulis dulu pesan balasanmu di sini ya sayang ❤️";
+        ta.classList.add("ring-2", "ring-rose-400");
+        setTimeout(() => ta.classList.remove("ring-2", "ring-rose-400"), 1500);
+        ta.focus();
+        return;
+      }
+
+      const formattedMessage =
+        `Halo sayangku Fatkhurrizal ❤️\n` +
+        `Ini balasan surat ulang tahunku (Ita Fatimah Fitriani) dari website spesialmu:\n\n` +
+        `"${messageText}"`;
+
+      const waUrl = `https://wa.me/${CONFIG.rizalWhatsAppNumber}?text=${encodeURIComponent(formattedMessage)}`;
+      openWA(formattedMessage);
+    }
+
+    // -------------------------------------------------------------------
+    // 12. OBSERVER EFEK MESIN TIK SAAT SURAT CINTA DI-SCROLL
+    // -------------------------------------------------------------------
+    function initScrollObservers() {
+      const letterSection = document.getElementById("love-letter-section");
+      if (!letterSection) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              startTypewriterEffect();
+              observer.disconnect();
+            }
+          });
+        },
+        { threshold: 0.25 }
+      );
+
+      observer.observe(letterSection);
+    }
+
+    // -------------------------------------------------------------------
+    // INISIALISASI HALAMAN
+    // -------------------------------------------------------------------
+    const qs = new URLSearchParams(location.search);
+    const isLocal = location.protocol === "file:" || ["localhost", "127.0.0.1"].includes(location.hostname);
+    const targetYear = parseInt(CONFIG.targetDateWIB.slice(0, 4), 10);
+    if (qs.has("reset") || qs.has("test")) store.clear();
+    if (isLocal || qs.has("preview") || qs.has("test")) document.body.classList.add("preview");
+    if (qs.has("test")) {
+      CONFIG.targetDateWIB = new Date(Date.now() + (Number(qs.get("test")) || 12) * 1000).toISOString();
+      document.getElementById("envelope-overlay").style.display = "none";
+    }
+    const age = targetYear - CONFIG.birthYear;
+    document.querySelectorAll(".age-num").forEach((el) => (el.textContent = age));
+    document.getElementById("days-lived").textContent = Math.round((Date.UTC(targetYear, 11, 1) - Date.UTC(CONFIG.birthYear, 11, 1)) / 864e5).toLocaleString("id-ID");
+    if (CONFIG.reasons.length) document.getElementById("reasons-section").classList.remove("hidden");
+
+    // Cadangkan tinggi kotak surat agar halaman tidak melompat saat mengetik
+    (function reserveLetterHeight() {
+      const box = document.getElementById("typewriter-letter-box");
+      const out = document.getElementById("typed-letter-output");
+      const ghost = document.createElement("p");
+      ghost.className = "whitespace-pre-line invisible";
+      ghost.setAttribute("aria-hidden", "true");
+      ghost.textContent = fullLoveLetterText;
+      box.style.position = "relative";
+      box.insertBefore(ghost, out);
+      out.style.cssText = "position:absolute;top:0;left:0;right:0;margin:0";
+    })();
+
+    const EMOTE_SETS = ["💖 ✨ 🥰 📸 🌹", "🌸 💕 😊 ☀️ 🦋", "🍜 🍰 💑 💗 😋", "😘 💓 🎀 🌷 ✨", "🤗 💞 🌙 ⭐ 🫶", "🥂 🎂 🎉 💝 🌟"];
+    const CORNERS = ["❤️", "✨", "🥰", "💖", "🌷", "👑", "💕", "🫶"];
+    const TILTS = ["-2deg", "2.5deg", "-1.5deg", "3deg", "-2.5deg", "1.5deg"];
+    CONFIG.memoriesPhotos = CONFIG.memoriesPhotos.map((p, i) => {
+      const o = typeof p === "string" ? { url: p } : p;
+      return {
+        url: o.url,
+        emotes: o.emotes || EMOTE_SETS[i % EMOTE_SETS.length],
+        cornerEmote: o.cornerEmote || CORNERS[i % CORNERS.length],
+        rotate: o.rotate || TILTS[i % TILTS.length]
+      };
+    });
+    renderGalleries();
+    if (CONFIG.memoriesPhotos.length > 9) {
+      const mb = document.getElementById("btn-more-photos");
+      mb.textContent = `Lihat semua (${CONFIG.memoriesPhotos.length} foto)`;
+      mb.classList.remove("hidden");
+    }
+    renderQuiz();
+    if (store.get("quizDone")) {
+      document.getElementById("quiz-body").classList.add("hidden");
+      document.getElementById("quiz-success").classList.remove("hidden");
+    }
+    if (store.get("candle")) blowCandle(true);
+    updateCountdown();
+    initScrollObservers();
+    setInterval(updateCountdown, 500);
+  </script>
+</body>
+</html>
